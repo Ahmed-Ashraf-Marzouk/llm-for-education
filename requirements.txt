@@ -1,0 +1,93 @@
+# ---------------------------------
+# Core LLM Fine-tuning Stack
+# ---------------------------------
+transformers>=4.38.0
+tokenizers>=0.15.0
+# sentencepiece>=0.1.99
+datasets>=2.14.0
+evaluate>=0.4.0
+accelerate>=0.25.0
+huggingface_hub>=0.19.0
+protobuf>=4.25.0
+trl>=0.7.4                    # PPO, DPO, and RLHF training
+peft>=0.6.0                  # LoRA / QLoRA fine-tuning
+bitsandbytes>=0.41.0
+
+# ---------------------------------
+# RLHF / DPO / Preference Modeling
+# ---------------------------------
+scikit-learn>=1.3.0
+scipy>=1.10.0
+wandb>=0.16.0
+tqdm>=4.66.0
+
+# ---------------------------------
+# Quantization & Efficient Inference
+# ---------------------------------
+# auto-gptq>=0.6.0             # GPTQ quantization
+autoawq>=0.1.0               # AWQ quantization
+gguf>=0.2.0                  # GGUF support (optional, e.g., llama.cpp)
+optimum>=1.15.0              # For ONNX / BetterTransformer / quantization
+# vllm>=0.2.0                  # Fast inference engine
+# llmc>=0.1.5                  # LLM compiler (optional)
+# sglang>=0.1.4                # Efficient serving
+
+# ---------------------------------
+# Visualization & Experiment Tracking
+# ---------------------------------
+tensorboard>=2.12.0
+# aim>=3.17.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+plotly>=5.17.0
+rich>=13.7.0
+
+# ---------------------------------
+# Preprocessing, NLP Tools
+# ---------------------------------
+nltk>=3.8.0
+spacy>=3.7.0
+ftfy>=6.1.1
+regex>=2023.12.25
+python-dateutil>=2.8.2
+unidecode>=1.3.7
+langdetect>=1.0.9
+emoji>=2.10.0
+
+# ---------------------------------
+# Schema Validation & Expectations
+# ---------------------------------
+great-expectations>=0.18.9
+pandera>=0.17.2
+
+# ---------------------------------
+# Data Loading, Requests, Parsing
+# ---------------------------------
+numpy>=1.24.0
+pandas>=2.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+
+# ---------------------------------
+# Interactive / Dev Utilities
+# ---------------------------------
+ipython
+notebook
+jupyterlab
+ipywidgets
+pyyaml>=6.0.1
+click>=8.1.3
+typer[all]>=0.9.0            # For CLI tools
+
+# ---------------------------------
+# Optional: Distributed / Advanced
+# ---------------------------------
+# deepspeed>=0.12.6            # For distributed training
+xformers>=0.0.23             # Memory-efficient attention
+flash-attn>=2.3.6            # Optional: faster attention kernels
+
+# ---------------------------------
+# Optional: Text generation interfaces
+# ---------------------------------
+# gradio>=4.16.0               # Web UI for demos
+# streamlit>=1.33.0            # Streamlit apps
