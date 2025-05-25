@@ -10,9 +10,8 @@
 
 - 🔧 Fine-tuning with LoRA/QLoRA using `peft`
 - 🧑‍🏫 Instruction tuning and alignment with DPO
-- ⚖️ Built-in evaluation with `evaluate`, `scikit-learn`, and `wandb`
 - ⚙️ Quantization support via `autoawq`, `gguf`, and `optimum`
-- 📈 Experiment tracking with `wandb`, `TensorBoard`, and rich visualizations
+- 📈 Experiment tracking with `wandb`, `TensorBoard`
 - 📓 Notebook-based workflows with `qwen.ipynb`
 
 ---
