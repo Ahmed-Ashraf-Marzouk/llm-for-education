@@ -1,5 +1,5 @@
 # llm-for-education
-
+You can our presentation for the demo here [link](https://docs.google.com/presentation/d/1bWzzKJ3W2_BnhzZU4grf8za71GtWf_QWANrAvfvugvE/edit?usp=sharing)!
 # 🧠 LLM for Education
 
 **LLM for Education** is a research-focused project that explores fine-tuning and aligning large language models (LLMs) for educational applications. It combines cutting-edge techniques like LoRA/QLoRA, Direct Preference Optimization (DPO), reward modeling, and quantization to build domain-specific educational agents.
